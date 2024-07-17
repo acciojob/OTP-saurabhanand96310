@@ -1,1 +1,59 @@
 /*  your css code here. If applicable */
+body{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.main{
+	margin:20px 5px;
+	border:1px solid black;
+}
+.header{
+	padding:10px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+.header p{
+	font-size:.9rem;
+}
+
+.code{
+width:45px;
+	height:70px;
+	margin:10px;
+	font-size:50px;
+	text-align:center;
+	padding-left:15px;
+	/* color:#757575; */
+	border:1px solid #EEEEEE;
+	
+	
+}
+.code-container {
+	display:flex;
+	align-items:;
+	justify-content:center;	
+}
+
+.footer{
+	background-color:#EAEAEA;
+	border-radius:10px;
+	max-width:300px;
+	height:60px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-size:.9rem;
+	margin-top:20px;
+	margin-left:25%
+}
+.footer p{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+}
+
